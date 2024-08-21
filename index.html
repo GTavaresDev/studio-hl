@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Criando meta tag para quando a pessoa compartilhar o link do  site-->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="HELLEN TAVARES STUDIO BEAUTY" />
+  <meta property="og:image" content="https://studio-hellen.vercel.app/assets/logo_studio.jpeg" />
+  <meta property="og:description" content="Beleza e bem-estar em cada detalhe. " />
+  <meta property="og:site_name" content="HELLEN TAVARES STUDIO BEAUTY" />
+
+  <!-- Link abaixo é o da fonte Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+  <!-- Esse link é de onde eu importei a figura do carrinho-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3r]rZj/k7ujTnHg4CGR2D7kSs®V4LLanw29ksYuRIEzO+tcaEPQgQKaoGNZ/zn28ImRDfuLWnOo7B=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles/output.css" />
+  <title>HELLEN TAVARES STUDIO BEAUTY</title>
+</head>
+
+<body>
+  <!-- Priemiro passo é criar a logo -->
+  <header class="w-full h-[420px] bg-black bg-home bg-cover bg-center">
+    <div class="w-full h-full flex flex-col justify-center items-center ">
+      <div class="max-w-xs max-h-xs "> <!-- Adicionando um contêiner com tamanho máximo -->
+        <img src="./assets/logo_studio.jpeg" alt=" Bovinorte Saúde Animal"
+          class="w-32 h-36  rounded-full shadow-lg hover:scale-110 duration-200" />
+      </div>
+      <div class="bg-gray-500 px-4 text-center mt-3 mb-3 rounded-full border border-gray-300">
+        <h1 class="text-white font-medium">
+          HELLEN TAVARES STUDIO BEAUTY
+        </h1>
+      </div>
+
+
+
+
+      <div class="bg-green-600 px-4 py-1 rounded-lg mt-5 mb-2" id="date-span">
+        <span class="text-white font-medium">SEG a SEX - 9:00 às 18:00 </span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Aqui é o fim do  cabeçalho -->
+
+  <!-- Aqui inicia o texto pré-menu-->
+  <h2 class="text-2xl font-bold md:text-3xl text-center mt-9 mb-6">
+    Conheça nossos serviços:
+  </h2>
+  <!-- Aqui vai ser detalhado os serviços -->
+  <div id="menu">
+    <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-14 mx-auto max-w-7xl px-24 mb-16">
+      <!-- Serviço 1 -->
+      <div class="flex gap-2 mt-4">
+        <img src="./assets/design.jpeg" alt="Design" class="w-28 h-28 rounded-md hover:scale-110 duration-300" />
+        <!-- Criando as info sobre o serviço1-->
+        <div>
+          <p class="font-bold">DESIGN </p>
+          <p class="text-sm">Design de sobrancelhas realça a beleza do rosto, moldando e definindo sobrancelhas para um
+            look perfeito.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold"> R$35,00</p>
+            <button class="bg-zinc-900  px-5 rounded add-to-cart-btn" data-name="DESIGN" data-price="35.00">
+              <i class="fa fa-cart-plus text-lg text-white "></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Serviço 2-->
+      <div class="flex gap-2 mt-4">
+        <img src="./assets/design_com_henna.jpeg" alt="design_com_henna"
+          class="w-28 h-28 rounded-md hover:scale-110 duration-300" />
+        <!-- Criando as info sobre o serviço2-->
+        <div>
+          <p class="font-bold">DESIGN COM HENNA</p>
+          <p class="text-sm">Design de henna define e realça sobrancelhas com cor duradoura, dando um look natural e
+            perfeito.</p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold"> R$45,00</p>
+            <button class="bg-zinc-900  px-5 rounded add-to-cart-btn" data-name="DESIGN COM HENNA" data-price="45.00">
+              <i class="fa fa-cart-plus text-lg text-white "></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Serviço 3-->
+      <div class="flex gap-2 mt-4">
+        <img src="./assets/buco.jpeg" alt="buco" class="w-28 h-28 rounded-md hover:scale-110 duration-300" />
+        <!-- Criando as info sobre o serviço3-->
+        <div>
+          <p class="font-bold">BUÇO </p>
+          <p class="text-sm">Buço bem cuidado elimina pelos do lábio superior, garantindo um visual limpo e elegante.
+          </p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold"> R$15,00</p>
+            <button class="bg-zinc-900  px-5 rounded add-to-cart-btn" data-name="BUÇO" data-price="15.00">
+              <i class="fa fa-cart-plus text-lg text-white "></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Serviço 4-->
+      <div class="flex gap-2 mt-4">
+        <img src="./assets/epilacao_facial.jpeg" alt="epilacao_facial"
+          class="w-28 h-28 rounded-md hover:scale-110 duration-300" />
+        <!-- Criando as info sobre o serviço4-->
+        <div>
+          <p class="font-bold">EPILAÇÃO FACIAL </p>
+          <p class="text-sm">Epilação facial remove pelos indesejados, deixando a pele suave e livre de imperfeições.
+          </p>
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold"> R$40,00</p>
+            <button class="bg-zinc-900  px-5 rounded add-to-cart-btn" data-name="EPILAÇÃO FACIAL" data-price="40.00">
+              <i class="fa fa-cart-plus text-lg text-white "></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+
+  <!-- Aqui começa a part onde voce Finaliza o Pedido -->
+  <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99]  items-center justify-center hidden" id="cart-modal">
+    <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+      <h2 class="text-center font-bold text-2xl mb-2">Meu Carrinho: </h2>
+      <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+      <p class="font-bold"> Total: <span id="cart-total">0.00</span></p>
+      <p class="font-bold mt-4">  Forma de Pagamento :</p>
+      <input type="text" placeholder="Digite sua personalização..." id="personalise"
+        class="w-full border-2 p-1 rounded my-1" />
+      <p class="text-red-500 hidden " id="addres-warn">Digite sua forma de pagamento por favor! </p>
+      <div class="flex items-center justify-between mt-5 w-full">
+        <button id="close-modal-btn">Fechar</button>
+        <button id="chekout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar Pedido</button>
+      </div>
+    </div>
+  </div>
+  <!-- Aqui termina a part onde voce Finaliza o Pedido-->
+
+  <!-- Aqui começa o nosso veja meu carrinho -->
+  <footer class="w-full bg-neutral-900 py-2 fixed bottom-0 z-40 flex items-center justify-center">
+    <button class="flex items-center gap-2 text-white font-bold" id="cart-btn">
+      (<span id="cart-count">0</span>)
+      VEJA MEU CARRINHO
+      <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+  </footer>
+  <!-- Aqui finaliza o nosso  veja meu carrinho -->
+  </div>
+  <div style="
+bottom: 0;
+left: 0;
+margin: 70px;
+background-color: #1a1a1a; /* Cor de fundo equivalente a bg-neutral-900 */
+padding: 0.5rem 1rem; /* Equivalent to px-4 py-1 */
+border-radius: 0.5rem; /* Equivalent to rounded-lg */
+">
+    <button id="abrir-insta" class=" text-white text-lg ">Siga-nos no instagram: @hellentavaresbeauty</button>
+  </div>
+  <!--Importando as funcionalidades JavaScript-->
+  <script src="script.js">
+    // JavaScript para incrementar o contador do carrinho
+    document.addEventListener('DOMContentLoaded', (event) => {
+      const cartCount = document.getElementById('cart-count');
+      const addToCartButtons = document.querySelectorAll('.add-to-cart-btn');
+
+      addToCartButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          cartCount.innerText = parseInt(cartCount.innerText) + 1;
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>
